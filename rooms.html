@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover luxurious rooms and suites at Cardiff Holland House Hotel & Spa, featuring city views, free WiFi, and premium amenities.">
+  <meta name="keywords" content="Cardiff Holland House Hotel, Sunday Hotels Cardiff, hotel rooms Cardiff, luxury suites, city views, free WiFi">
+  <meta name="author" content="Cardiff Holland House Hotel & Spa by Sunday">
+  <meta name="robots" content="index, follow">
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Rooms & Suites at Cardiff Holland House Hotel & Spa">
+  <meta property="og:description" content="Explore our 172 elegant rooms and suites with city views, free WiFi, private bathrooms, and premium amenities like mini bars and bathrobes.">
+  <meta property="og:image" content="images/suite.jpg">
+  <meta property="og:url" content="https://www.cardiffhollandhouse.com/rooms.html">
+  <meta property="og:type" content="website">
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Rooms & Suites at Cardiff Holland House Hotel & Spa">
+  <meta name="twitter:description" content="Explore our 172 elegant rooms and suites with city views, free WiFi, private bathrooms, and premium amenities like mini bars and bathrobes.">
+  <meta name="twitter:image" content="images/suite.jpg">
+  <title>Rooms & Suites | Cardiff Holland House Hotel & Spa by Sunday</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="rooms-styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+  <!-- Structured Data (JSON-LD) for Hotel Rooms -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Hotel",
+      "name": "Cardiff Holland House Hotel & Spa by Sunday",
+      "description": "172 luxurious rooms and suites with city views, free WiFi, private bathrooms, flat-screen TVs, and premium amenities.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "24-26 Newport Road",
+        "addressLocality": "Cardiff",
+        "addressRegion": "Wales",
+        "postalCode": "CF24 0DD",
+        "addressCountry": "UK"
+      },
+      "telephone": "+442920435012",
+      "email": "reception.cardiff@hotelssunday.com",
+      "url": "https://www.cardiffhollandhouse.com/rooms.html",
+      "image": "images/suite.jpg",
+      "numberOfRooms": 172,
+      "smokingAllowed": false
+    }
+  </script>
+</head>
+<body>
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="loader"></div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-container">
+      <div class="logo">
+        <a href="index.html"><img src="images/logo.png" alt="Cardiff Holland House Hotel & Spa by Sunday Logo" loading="lazy"></a>
+      </div>
+      <div class="nav-container">
+        <nav class="main-navigation" aria-label="Main Navigation">
+          <ul class="nav-menu">
+            <li class="has-dropdown">
+              <a href="about.html" aria-haspopup="true" aria-expanded="false">About</a>
+              <ul class="dropdown-menu" aria-label="About submenu">
+                <li><a href="about.html">Our Story</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+              </ul>
+            </li>
+            <li><a href="meetings.html">Meetings</a></li>
+            <li><a href="weddings.html">Weddings</a></li>
+            <li class="has-dropdown">
+              <a href="#dining" aria-haspopup="true" aria-expanded="false">Dining & Events</a>
+              <ul class="dropdown-menu" aria-label="Dining and Events submenu">
+                <li><a href="events.html">Special Events</a></li>
+                <li><a href="urban-bar-kitchen.html">Urban Bar & Kitchen</a></li>
+                <li><a href="christmas.html">Christmas</a></li>
+              </ul>
+            </li>
+            <li class="has-dropdown">
+              <a href="#explore" aria-haspopup="true" aria-expanded="false">Stay & Explore</a>
+              <ul class="dropdown-menu" aria-label="Explore and Stay submenu">
+                <li><a href="rooms.html">Rooms & Suites</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="things.html">Things To Do</a></li>
+
+              </ul>
+            </li>
+            <li><a href="spa.html">Spa</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="nav-book">
+        <a href="https://booking.sundayhotels.com/hotels/cardiff-holland-house" class="btn-book" onclick="gtag('event', 'click', { 'event_category': 'Button', 'event_label': 'Book Now', 'value': 1 });">Book Now</a>
+      </div>
+      <div class="mobile-menu-toggle" role="button" aria-label="Toggle navigation" tabindex="0">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero-section">
+    <video autoplay muted loop playsinline poster="images/suite.jpg" class="hero-video">
+      <source src="videos/suite-interior.mp4" type="video/mp4">
+      <img src="images/suite.jpg" alt="Luxurious suite at Cardiff Holland House" loading="lazy">
+    </video>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>Rooms & Suites</h1>
+      <p>Luxury Meets City Views</p>
+      <a href="#rooms" class="btn-primary" onclick="gtag('event', 'click', { 'event_category': 'Button', 'event_label': 'Explore Rooms', 'value': 1 });">Explore Rooms</a>
+    </div>
+  </section>
+
+  <!-- Overview Section -->
+  <section class="overview-section" id="overview">
+    <div class="section-label">Accommodation</div>
+    <div class="overview-container">
+      <div class="overview-divider"></div>
+      <h2>Elegant Comfort</h2>
+      <p data-animate>Discover 172 luxurious rooms and suites at Cardiff Holland House Hotel & Spa, located in the main hotel with stunning city views. Enjoy modern amenities like free WiFi, private bathrooms, and flat-screen TVs in a non-smoking environment, perfect for a relaxing stay in Cardiff’s vibrant city centre.</p>
+      <div class="overview-divider"></div>
+    </div>
+  </section>
+
+  <!-- Room Types Section -->
+  <section class="rooms-section" id="rooms">
+    <div class="section-label">Room Types</div>
+    <h2>Choose Your Stay</h2>
+    <div class="rooms-filter">
+      <button class="filter-btn active" data-filter="all" aria-selected="true">All</button>
+      <button class="filter-btn" data-filter="classic" aria-selected="false">Classic</button>
+      <button class="filter-btn" data-filter="superior" aria-selected="false">Superior</button>
+      <button class="filter-btn" data-filter="privilege" aria-selected="false">Privilege</button>
+      <button class="filter-btn" data-filter="suite" aria-selected="false">Suite</button>
+    </div>
+    <div class="rooms-container">
+      <div class="room-card" data-type="classic" data-animate>
+        <img src="images/classic-double.jpg" alt="Classic Double Room" loading="lazy">
+        <h3>Classic Double</h3>
+        <p>247 sqft | 1 King Bed or 2 Single Beds</p>
+        <p>Free WiFi, Private Bathroom, Flat Screen TV, Tea/Coffee Maker, Safe</p>
+        <button class="details-btn" data-room="classic-double" aria-label="View details for Classic Double">Details</button>
+      </div>
+      <div class="room-card" data-type="classic" data-animate>
+        <img src="images/classic-triple.jpg" alt="Classic Triple Room" loading="lazy">
+        <h3>Classic Triple</h3>
+        <p>247 sqft | 1 King Bed or 3 Single Beds</p>
+        <p>Free WiFi, Private Bathroom, Flat Screen TV, Tea/Coffee Maker, Safe</p>
+        <button class="details-btn" data-room="classic-triple" aria-label="View details for Classic Triple">Details</button>
+      </div>
+      <div class="room-card" data-type="superior" data-animate>
+        <img src="images/superior.jpg" alt="Superior Room" loading="lazy">
+        <h3>Superior</h3>
+        <p>355 sqft | 1 King Bed or 2 Single Beds</p>
+        <p>Free WiFi, Private Bathroom, Flat Screen TV, Tea/Coffee Maker, Safe</p>
+        <button class="details-btn" data-room="superior" aria-label="View details for Superior">Details</button>
+      </div>
+      <div class="room-card" data-type="privilege" data-animate>
+        <img src="images/privilege.jpg" alt="Privilege Room" loading="lazy">
+        <h3>Privilege</h3>
+        <p>279 sqft | 1 King Bed or 2 Single Beds</p>
+        <p>Free WiFi, Private Bathroom, Flat Screen TV, Tea/Coffee Maker, Safe, Mini Bar, Bathrobe & Slippers</p>
+        <button class="details-btn" data-room="privilege" aria-label="View details for Privilege">Details</button>
+      </div>
+      <div class="room-card" data-type="suite" data-animate>
+        <img src="images/suite.jpg" alt="Suite" loading="lazy">
+        <h3>Suite</h3>
+        <p>645 sqft | 1 King Bed</p>
+        <p>Free WiFi, Private Bathroom, Flat Screen TV, Tea/Coffee Maker, Safe, Mini Bar, Bathrobe & Slippers</p>
+        <button class="details-btn" data-room="suite" aria-label="View details for Suite">Details</button>
+      </div>
+    </div>
+    <!-- Room Details Modal -->
+    <div class="modal" id="roomModal" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
+      <div class="modal-content">
+        <span class="modal-close" aria-label="Close modal">&times;</span>
+        <h3 id="modalTitle"></h3>
+        <img id="modalImage" src="" alt="" loading="lazy">
+        <div id="modalDetails"></div>
+        <a href="https://booking.sundayhotels.com/hotels/cardiff-holland-house" class="btn-primary" target="_blank" rel="noopener" onclick="gtag('event', 'click', { 'event_category': 'Button', 'event_label': 'Book This Room', 'value': 1 });">Book This Room</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="cta-container">
+      <h2>Book Your Stay</h2>
+      <p>Experience luxury and comfort with stunning city views.</p>
+      <p><a href="mailto:reception.cardiff@hotelssunday.com">reception.cardiff@hotelssunday.com</a> | <a href="tel:+442920435012">02920 435 012</a></p>
+      <a href="https://booking.sundayhotels.com/hotels/cardiff-holland-house" class="btn-primary" target="_blank" rel="noopener" onclick="gtag('event', 'click', { 'event_category': 'Button', 'event_label': 'Book Now', 'value': 1 });">Book Now</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-columns">
+      <div class="footer-column">
+        <a href="contact.html" class="footer-button">Contact Us</a>
+        <address>
+          Cardiff Holland House Hotel & Spa by Sunday<br>
+          24-26 Newport Road, Cardiff, CF24 0DD<br>
+          <a href="tel:+442920435012">02920 435 012</a><br>
+          <a href="mailto:reception.cardiff@hotelssunday.com">reception.cardiff@hotelssunday.com</a><br>
+          <a href="https://www.instagram.com/Cardiff_holland_house">Instagram: Cardiff_holland_house</a><br>
+          <a href="https://www.facebook.com/Holland House Hotel & Spa">Facebook: Holland House Hotel & Spa</a>
+        </address>
+      </div>
+      <div class="footer-column">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="weddings.html">Weddings</a></li>
+          <li><a href="meetings.html">Meetings & Events</a></li>
+          <li><a href="christmas.html">Christmas</a></li>
+          <li><a href="spa.html">Spa & Leisure</a></li>
+          <li><a href="https://www.visitcardiff.com/" target="_blank" rel="noopener">Visit Cardiff</a></li>
+        </ul>
+      </div>
+      <div class="footer-column newsletter">
+        <h4>Newsletter</h4>
+        <form action="https://formsubmit.co/reception.cardiff@hotelssunday.com" method="POST" class="newsletter-form">
+          <input type="email" name="email" placeholder="Your email address" required aria-label="Your Email">
+          <button class="btn" type="submit" aria-label="Subscribe to Newsletter">Subscribe</button>
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_subject" value="New Newsletter Signup!">
+          <input type="hidden" name="_next" value="https://www.cardiffhollandhouse.com/newsletter?subscribed=true">
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>2025 Sunday Cardiff Holland House Hotel & Spa. All rights reserved</p>
+      <ul class="footer-legal">
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="terms.html">Terms & Conditions</a></li>
+        <li><a href="sitemap.html">Sitemap</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+  <script src="rooms-scripts.js"></script>
+</body>
+</html>

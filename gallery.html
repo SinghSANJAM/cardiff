@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore the gallery of Cardiff Holland House Hotel & Spa, showcasing luxurious rooms, vibrant dining, relaxing spa, and stunning event spaces.">
+  <meta name="keywords" content="Cardiff Holland House Hotel, Sunday Hotels Cardiff, hotel gallery, luxury rooms, dining Cardiff, spa Cardiff, events Cardiff">
+  <meta name="author" content="Cardiff Holland House Hotel & Spa by Sunday">
+  <meta name="robots" content="index, follow">
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Gallery | Cardiff Holland House Hotel & Spa">
+  <meta property="og:description" content="Discover the elegance of Cardiff Holland House through our gallery, featuring rooms, dining, spa, and event spaces.">
+  <meta property="og:image" content="images/hotel-exterior.jpg">
+  <meta property="og:url" content="https://www.cardiffhollandhouse.com/gallery.html">
+  <meta property="og:type" content="website">
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Gallery | Cardiff Holland House Hotel & Spa">
+  <meta name="twitter:description" content="Discover the elegance of Cardiff Holland House through our gallery, featuring rooms, dining, spa, and event spaces.">
+  <meta name="twitter:image" content="images/hotel-exterior.jpg">
+  <title>Gallery | Cardiff Holland House Hotel & Spa by Sunday</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="gallery-styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+  <!-- Structured Data (JSON-LD) for Gallery -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageGallery",
+      "name": "Cardiff Holland House Hotel & Spa Gallery",
+      "description": "A collection of images showcasing the luxurious rooms, vibrant dining, relaxing spa, and stunning event spaces at Cardiff Holland House Hotel & Spa.",
+      "url": "https://www.cardiffhollandhouse.com/gallery.html",
+      "image": [
+        "images/hotel-exterior.jpg",
+        "images/room-gallery.jpg",
+        "images/dining-gallery.jpg",
+        "images/spa-gallery.jpg",
+        "images/event-gallery.jpg"
+      ],
+      "associatedMedia": [
+        {
+          "@type": "ImageObject",
+          "contentUrl": "images/hotel-exterior.jpg",
+          "caption": "Exterior of Cardiff Holland House Hotel & Spa"
+        },
+        {
+          "@type": "ImageObject",
+          "contentUrl": "images/room-gallery.jpg",
+          "caption": "Luxurious room at Cardiff Holland House"
+        }
+      ]
+    }
+  </script>
+</head>
+<body>
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="loader"></div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-container">
+      <div class="logo">
+        <a href="index.html"><img src="images/logo.png" alt="Cardiff Holland House Hotel & Spa by Sunday Logo" loading="lazy"></a>
+      </div>
+      <div class="nav-container">
+        <nav class="main-navigation" aria-label="Main Navigation">
+          <ul class="nav-menu">
+            <li class="has-dropdown">
+              <a href="about.html" aria-haspopup="true" aria-expanded="false">About</a>
+              <ul class="dropdown-menu" aria-label="About submenu">
+                <li><a href="about.html">Our Story</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+
+              </ul>
+            </li>
+            <li><a href="meetings.html">Meetings</a></li>
+            <li><a href="weddings.html">Weddings</a></li>
+            <li class="has-dropdown">
+              <a href="#dining" aria-haspopup="true" aria-expanded="false">Dining & Events</a>
+              <ul class="dropdown-menu" aria-label="Dining and Events submenu">
+                <li><a href="events.html">Special Events</a></li>
+                <li><a href="urban-bar-kitchen.html">Urban Bar & Kitchen</a></li>
+                <li><a href="christmas.html">Christmas</a></li>
+              </ul>
+            </li>
+            <li class="has-dropdown">
+              <a href="#explore" aria-haspopup="true" aria-expanded="false">Stay & Explore</a>
+              <ul class="dropdown-menu" aria-label="Explore and Stay submenu">
+                <li><a href="rooms.html">Rooms & Suites</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="things.html">Things To Do</a></li>
+
+              </ul>
+            </li>
+            <li><a href="spa.html">Spa</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="nav-book">
+        <a href="https://booking.sundayhotels.com/hotels/cardiff-holland-house" class="btn-book" onclick="gtag('event', 'click', { 'event_category': 'Button', 'event_label': 'Book Now', 'value': 1 });">Book Now</a>
+      </div>
+      <div class="mobile-menu-toggle" role="button" aria-label="Toggle navigation" tabindex="0">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero-section">
+    <img src="images/hotel-exterior.jpg" alt="Cardiff Holland House Hotel Exterior" class="hero-image" loading="lazy">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>Our Gallery</h1>
+      <p>Discover the Elegance of Cardiff Holland House</p>
+      <a href="#gallery" class="btn-primary" onclick="gtag('event', 'click', { 'event_category': 'Button', 'event_label': 'Explore Gallery', 'value': 1 });">Explore Gallery</a>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="gallery-section" id="gallery">
+    <div class="section-label">Moments Captured</div>
+    <h2>Explore Our Spaces</h2>
+    <div class="gallery-filter">
+      <button class="filter-btn active" data-filter="all" aria-selected="true">All</button>
+      <button class="filter-btn" data-filter="rooms" aria-selected="false">Rooms</button>
+      <button class="filter-btn" data-filter="dining" aria-selected="false">Dining</button>
+      <button class="filter-btn" data-filter="spa" aria-selected="false">Spa</button>
+      <button class="filter-btn" data-filter="events" aria-selected="false">Events</button>
+      <button class="filter-btn" data-filter="exterior" aria-selected="false">Exterior</button>
+    </div>
+    <div class="gallery-container">
+      <div class="gallery-item" data-category="rooms" data-animate>
+        <img src="images/room-gallery.jpg" alt="Luxurious Suite" loading="lazy" data-lightbox="gallery" data-caption="Luxurious suite at Cardiff Holland House">
+      </div>
+      <div class="gallery-item" data-category="rooms" data-animate>
+        <img src="images/room-gallery-2.jpg" alt="Classic Double Room" loading="lazy" data-lightbox="gallery" data-caption="Classic double room with city views">
+      </div>
+      <div class="gallery-item" data-category="dining" data-animate>
+        <img src="images/dining-gallery.jpg" alt="Urban Bar & Kitchen Dining" loading="lazy" data-lightbox="gallery" data-caption="Vibrant dining at Urban Bar & Kitchen">
+      </div>
+      <div class="gallery-item" data-category="dining" data-animate>
+        <img src="images/dining-gallery-2.jpg" alt="Seasonal Afternoon Tea" loading="lazy" data-lightbox="gallery" data-caption="Seasonal afternoon tea spread">
+      </div>
+      <div class="gallery-item" data-category="spa" data-animate>
+        <img src="images/spa-gallery.jpg" alt="Spa Relaxation Area" loading="lazy" data-lightbox="gallery" data-caption="Relaxing spa at Cardiff Holland House">
+      </div>
+      <div class="gallery-item" data-category="spa" data-animate>
+        <img src="images/spa-gallery-2.jpg" alt="Spa Treatment Room" loading="lazy" data-lightbox="gallery" data-caption="Luxury spa treatment room">
+      </div>
+      <div class="gallery-item" data-category="events" data-animate>
+        <img src="images/event-gallery.jpg" alt="Event Venue Setup" loading="lazy" data-lightbox="gallery" data-caption="Elegant event venue setup">
+      </div>
+      <div class="gallery-item" data-category="events" data-animate>
+        <img src="images/event-gallery-2.jpg" alt="Festive Event Decor" loading="lazy" data-lightbox="gallery" data-caption="Festive event decor at Cardiff Holland House">
+      </div>
+      <div class="gallery-item" data-category="exterior" data-animate>
+        <img src="images/hotel-exterior.jpg" alt="Hotel Exterior" loading="lazy" data-lightbox="gallery" data-caption="Cardiff Holland House Hotel exterior">
+      </div>
+      <div class="gallery-item" data-category="exterior" data-animate>
+        <img src="images/hotel-exterior-2.jpg" alt="Hotel Night View" loading="lazy" data-lightbox="gallery" data-caption="Hotel exterior at night">
+      </div>
+    </div>
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-labelledby="lightboxCaption" aria-hidden="true">
+      <div class="lightbox-content">
+        <span class="lightbox-close" aria-label="Close lightbox">&times;</span>
+        <img src="" alt="" id="lightboxImage" loading="lazy">
+        <p id="lightboxCaption"></p>
+        <button class="lightbox-prev" aria-label="Previous image"><i class="fas fa-chevron-left"></i></button>
+        <button class="lightbox-next" aria-label="Next image"><i class="fas fa-chevron-right"></i></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="cta-container">
+      <h2>Book Your Stay</h2>
+      <p>Experience the elegance of Cardiff Holland House Hotel & Spa.</p>
+      <p><a href="mailto:reception.cardiff@hotelssunday.com">reception.cardiff@hotelssunday.com</a> | <a href="tel:+442920435012">02920 435 012</a></p>
+      <a href="https://booking.sundayhotels.com/hotels/cardiff-holland-house" class="btn-primary" target="_blank" rel="noopener" onclick="gtag('event', 'click', { 'event_category': 'Button', 'event_label': 'Book Your Stay', 'value': 1 });">Book Your Stay</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-columns">
+      <div class="footer-column">
+        <a href="contact.html" class="footer-button">Contact Us</a>
+        <address>
+          Cardiff Holland House Hotel & Spa by Sunday<br>
+          24-26 Newport Road, Cardiff, CF24 0DD<br>
+          <a href="tel:+442920435012">02920 435 012</a><br>
+          <a href="mailto:reception.cardiff@hotelssunday.com">reception.cardiff@hotelssunday.com</a><br>
+          <a href="https://www.instagram.com/Cardiff_holland_house">Instagram: Cardiff_holland_house</a><br>
+          <a href="https://www.facebook.com/Holland House Hotel & Spa">Facebook: Holland House Hotel & Spa</a>
+        </address>
+      </div>
+      <div class="footer-column">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="weddings.html">Weddings</a></li>
+          <li><a href="meetings.html">Meetings & Events</a></li>
+          <li><a href="christmas.html">Christmas</a></li>
+          <li><a href="spa.html">Spa & Leisure</a></li>
+          <li><a href="https://www.visitcardiff.com/" target="_blank" rel="noopener">Visit Cardiff</a></li>
+        </ul>
+      </div>
+      <div class="footer-column newsletter">
+        <h4>Newsletter</h4>
+        <form action="https://formsubmit.co/reception.cardiff@hotelssunday.com" method="POST" class="newsletter-form">
+          <input type="email" name="email" placeholder="Your email address" required aria-label="Your Email">
+          <button class="btn" type="submit" aria-label="Subscribe to Newsletter">Subscribe</button>
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_subject" value="New Newsletter Signup!">
+          <input type="hidden" name="_next" value="https://www.cardiffhollandhouse.com/newsletter?subscribed=true">
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>2025 Sunday Cardiff Holland House Hotel & Spa. All rights reserved</p>
+      <ul class="footer-legal">
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="terms.html">Terms & Conditions</a></li>
+        <li><a href="sitemap.html">Sitemap</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+  <script src="gallery-scripts.js"></script>
+</body>
+</html>
